@@ -1,1 +1,51 @@
 /* code here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+
+ul {
+    margin-left: 80px;
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+    border-radius: 6px;
+    padding: 6px 10px;
+}
+
+ul li a:hover {
+    background-color: #6b756d;
+}
+
+.search {
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+}
+
+
+
+.hero {
+    background-color: #4b574f;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 120px 20px;
+    text-align: center;
+}
