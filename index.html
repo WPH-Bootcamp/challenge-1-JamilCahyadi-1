@@ -3,89 +3,99 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Challenge-1 Simple Landing Page with Html and CSS</title>
+    <title>SmartCook | Kitchen Houseware</title>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
+
   <body>
-    <!-- Code Here -->
     <!-- NAVBAR -->
     <header>
-      <nav>
+      <nav class="navbar">
         <img
           src="./images/logo_transparant-removebg-preview.png"
-          alt="Logo SmartCook"
+          alt="SmartCook Logo"
+          class="logo"
         />
-        <ul>
+
+        <ul class="nav-menu">
           <li><a href="#hero">Home</a></li>
           <li><a href="#product">Product</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-        <div class="search">
-          <input type="text" placeholder="Search" />
-          <button class="cari">Cari</button>
+
+        <div class="search-box">
+          <input type="text" placeholder="Search..." />
+          <button class="btn-search">Cari</button>
         </div>
       </nav>
     </header>
 
-    <!-- HERO -->
-    <section class="hero" id="hero">
-      <h2>Upgrade Dapur Anda</h2>
-      <p>Peralatan dapur modren untuk hidup lebih mudah</p>
-      <button>Buy Now</button>
-    </section>
-
-    <!-- About -->
-    <section class="about" id="about">
-      <h2>Tentang Kami</h2>
-      <p>
-        SmartCook adalah brand kitchen houseware yang berfokus pada inovasi dan
-        kemudahan dalam memasak. Kami percaya bahwa setiap orang bisa memasak
-        dengan lebih simpel tanpa mengurangi kualitas hasil masakan. Dengan
-        desain yang modern dan fungsional, SmartCook hadir untuk menemani setiap
-        momen di dapur Anda—lebih cepat, lebih praktis, dan lebih menyenangkan.
-      </p>
-    </section>
-
-    <!-- Product -->
-    <section class="product" id="product">
-      <h2>Produk Kami</h2>
-
-      <article>
-        <div class="card">
-          <h3>Gas Hob</h3>
-          <img src="./images/Gas_Hob.avif" alt="Gas_Hob" />
-          <p>Kompor modren hemat energi</p>
+    <main>
+      <!-- HERO -->
+      <section class="hero" id="hero">
+        <div class="hero-content">
+          <h1>Upgrade Dapur Anda</h1>
+          <p>Peralatan dapur modern untuk hidup lebih mudah</p>
+          <button class="btn-primary">Buy Now</button>
         </div>
-      </article>
+      </section>
 
-      <article>
-        <div class="card">
-          <h3>Cooker Hood</h3>
-          <img src="./images/Cooker Hood.jpg" alt="Cooker_Hood" />
-          <p>Hisap asap dapur tanpa ribet</p>
+      <!-- ABOUT -->
+      <section class="about" id="about">
+        <div class="container">
+          <h2>Tentang Kami</h2>
+          <p>
+            SmartCook adalah brand kitchen houseware yang berfokus pada inovasi
+            dan kemudahan dalam memasak. Kami percaya bahwa setiap orang bisa
+            memasak dengan lebih simpel tanpa mengurangi kualitas hasil masakan.
+            Dengan desain yang modern dan fungsional, SmartCook hadir untuk
+            menemani setiap momen di dapur Anda—lebih cepat, lebih praktis, dan
+            lebih menyenangkan.
+          </p>
         </div>
-      </article>
+      </section>
 
-      <article>
-        <div class="card">
-          <h3>Oven</h3>
-          <img src="./images/Oven.jpg" alt="Oven" />
-          <p>Masak lebih cepat dan merata</p>
+      <!-- PRODUCT -->
+      <section class="product" id="product">
+        <div class="container">
+          <h2>Produk Kami</h2>
+
+          <div class="product-list">
+            <article class="card">
+              <h3>Gas Hob</h3>
+              <img src="./images/Gas_Hob.avif" alt="Gas Hob" />
+              <p>Kompor modern hemat energi</p>
+            </article>
+
+            <article class="card">
+              <h3>Cooker Hood</h3>
+              <img src="./images/Cooker Hood.jpg" alt="Cooker Hood" />
+              <p>Hisap asap dapur tanpa ribet</p>
+            </article>
+
+            <article class="card">
+              <h3>Oven</h3>
+              <img src="./images/Oven.jpg" alt="Oven" />
+              <p>Masak lebih cepat dan merata</p>
+            </article>
+          </div>
         </div>
-      </article>
-    </section>
+      </section>
 
-    <!-- Contect -->
-    <section class="contact" id="contact">
-      <h2>Contact</h2>
-      <p>Email: Info@smartcook.com</p>
-      <p>Service Center : 08112227788</p>
-    </section>
+      <!-- CONTACT -->
+      <section class="contact" id="contact">
+        <div class="container">
+          <h2>Contact</h2>
+          <p>Email: info@smartcook.com</p>
+          <p>Service Center: 0811-2227-788</p>
+        </div>
+      </section>
+    </main>
 
-    <!-- Footer -->
+    <!-- FOOTER -->
     <footer>
-      <p>@ 2026 SmartCook</p>
+      <p>&copy; 2026 SmartCook</p>
     </footer>
   </body>
 </html>
